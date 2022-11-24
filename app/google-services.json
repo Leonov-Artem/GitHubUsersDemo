@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "351333214576",
+    "project_id": "git-hub-users-cdfbc",
+    "storage_bucket": "git-hub-users-cdfbc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351333214576:android:59122536d0702e7d2387b5",
+        "android_client_info": {
+          "package_name": "com.training.android.githubusersdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "351333214576-m09uofs1r1s41p2fvcbiedhm3i80j7er.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8c0P4iPrA8VeYM-xAHthKwiJ_to_qdiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "351333214576-m09uofs1r1s41p2fvcbiedhm3i80j7er.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

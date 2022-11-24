@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Пользователи GitHub (Demo)</string>
+    <string name="not_set">Не установлено</string>
+    <string name="sign_in">Авторизация</string>
+    <string name="no_internet_connection">Нет интернет подключения</string>
+    <string name="access_denied">Отказано в доступе</string>
+
+    <string name="dialog_message_access_token_is_invalid">
+        Токен доступа недействителен.
+        Необходимо авторизоваться повторно
+    </string>
+    <string name="dialog_message_default_request_limit_exceeded">
+        Доступные по умолчанию %1$d запросов в час закончились.
+        Лимит запросов сбросится через %2$s мин.
+        Чтобы получить %3$d запросов в час, нужно авторизоваться
+    </string>
+    <string name="dialog_message_authorized_user_request_limit_exceeded">
+        Доступные %1$d запросов в час закончились.
+        Лимит запросов сбросится через %2$s мин.
+    </string>
+    <string name="dialog_message_about_authorization">
+        После авторизации будет доступно %1$d запросов в час (вместо %2$d по умолчанию)
+        и просмотр информации по своему аккаунту
+    </string>
+
+    <string name="dialog_title_authorization">Авторизация</string>
+    <string name="dialog_title_information">Информация</string>
+    <string name="dialog_button_hide">Скрыть</string>
+    <string name="dialog_button_ok">ОК</string>
+    <string name="dialog_button_sign_in">Войти</string>
+    <string name="text_view_name">имя:</string>
+    <string name="text_view_email">эл. почта:</string>
+    <string name="text_view_followers">подписчиков:</string>
+    <string name="text_view_following">подписан:</string>
+    <string name="text_view_creation_date">дата создания:</string>
+    <string name="text_view_public_repos">публичных репозиториев:</string>
+    <string name="text_view_private_repos">закрытых репозиториев:</string>
+    <string name="button_sign_in">Войти</string>
+    <string name="button_sign_out">Выход</string>
+    <string name="hint_enter_your_login">введите логин</string>
+    <string name="button_retry">повторить</string>
+    <string name="menu_item_info">Информация</string>
+    <string name="menu_item_my_profile">Мой профиль</string>
+    <string name="menu_item_close">Закрыть</string>
+    <string name="menu_item_reload">Перезагрузить</string>
+    <string name="menu_item_sign_in">Вход</string>
+</resources>

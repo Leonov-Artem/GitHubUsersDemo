@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_sign_in_activity"
+    app:startDestination="@id/sign_in_fragment">
+
+    <fragment
+        android:id="@+id/sign_in_fragment"
+        android:name="com.training.android.githubusersdemo.view.signin.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" >
+        <action
+            android:id="@+id/action_signInFragment_to_webViewFragment"
+            app:destination="@id/web_view_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/web_view_fragment"
+        android:name="com.training.android.githubusersdemo.view.signin.WebViewFragment"
+        android:label="fragment_web_view"
+        tools:layout="@layout/fragment_web_view" >
+        <action
+            android:id="@+id/action_webViewFragment_to_signInFragment"
+            app:destination="@id/sign_in_fragment" />
+        <argument
+            android:name="login"
+            app:argType="string" />
+    </fragment>
+</navigation>

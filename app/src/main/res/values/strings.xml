@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">GitHub Users (Demo)</string>
+    <string name="not_set">not set</string>
+    <string name="sign_in">Sign In</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="access_denied">Access denied</string>
+
+    <string name="dialog_message_access_token_is_invalid">
+        The access token is invalid.
+        Re-authorization required
+    </string>
+    <string name="dialog_message_default_request_limit_exceeded">
+        The default %1$d requests per hour has ended. The request limit will reset after %2$s minutes.
+        To receive %3$d requests per hour, you need to sign in
+    </string>
+    <string name="dialog_message_authorized_user_request_limit_exceeded">
+        The available %1$d requests per hour has ended.
+        The request limit will reset after %2$s minutes
+    </string>
+    <string name="dialog_message_about_authorization">
+        After authorization, %1$d requests per hour will be available (instead of %2$d by default)
+        and viewing information on your account
+    </string>
+
+    <string name="dialog_title_authorization">Authorization</string>
+    <string name="dialog_title_information">Information</string>
+    <string name="dialog_button_sign_in">@string/sign_in</string>
+    <string name="dialog_button_hide">Hide</string>
+    <string name="dialog_button_ok">OK</string>
+    <string name="text_view_name">name:</string>
+    <string name="text_view_email">email:</string>
+    <string name="text_view_followers">followers:</string>
+    <string name="text_view_following">following:</string>
+    <string name="text_view_creation_date">creation date:</string>
+    <string name="text_view_public_repos">public repos:</string>
+    <string name="text_view_private_repos">private repos:</string>
+    <string name="button_sign_in">@string/sign_in</string>
+    <string name="button_sign_out">Sign out</string>
+    <string name="hint_enter_your_login">enter your login</string>
+    <string name="button_retry">retry</string>
+    <string name="menu_item_info">Info</string>
+    <string name="menu_item_sign_in">sign in</string>
+    <string name="menu_item_my_profile">my profile</string>
+    <string name="menu_item_close">close</string>
+    <string name="menu_item_reload">reload</string>
+</resources>
