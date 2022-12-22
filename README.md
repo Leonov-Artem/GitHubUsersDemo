@@ -20,6 +20,6 @@
 
 ## Что еще не реализовано:
 - MVI на основе MVVM
-- разделение на модули presentation, domain, data (clean archetecture)
+- разделение на модули presentation, domain, data (clean architecture)
 - dependency injection с помощью Dagger2
 - unit-тестирование
